@@ -10,8 +10,11 @@ Membrane-tagged fluorescent cells
 #Description
 
 Two python 3.6 scripts are available in this repository.
+
 Two packages are needed.
+
 pip install opencv-contrib-python==3.3.0.10
+
 pip install scikit-image
 
 slic_labeling.py is used to label each image by SLIC function.
@@ -23,13 +26,17 @@ The second script ‘’ uses SIFT function to generate a transformation matrix.
 This matrix can be used to transform a pixel position on the first image to the corresponding position on the second image.
 The second script shows the same segments on each image.
 
-Clone this repository to your own account.
-Python version needs to be 3.6.
-pip install opencv-contrib-python==3.3.0.10
-pip install scikit-image
+1. Clone this repository to your own account.
 
-Collect the images in the same folder. Image files needs to be tif format, otherwise, L19 can be changed to the file type you have.
-Execute the script
+2. Python version needs to be 3.6.
+
+3. pip install opencv-contrib-python==3.3.0.10
+
+4. pip install scikit-image
+
+5. Collect the images in the same folder. Image files needs to be tif format, otherwise, L19 can be changed to the file type you have.
+
+6. Execute the script
 
 
 #References
