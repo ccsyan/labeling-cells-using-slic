@@ -1,4 +1,4 @@
-# labeling-cells-using-slic
+# labeling cells using slic and 3D volume estimation
 [![DOI](https://zenodo.org/badge/318386438.svg)](https://zenodo.org/badge/latestdoi/318386438)
 
 Identifying the cell region and labeling cells according to their fluorescent color and identifying overlapped region between two images
